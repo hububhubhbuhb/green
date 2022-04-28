@@ -1,0 +1,25 @@
+/* this is a comment */
+
+body {
+	background-color: powderblue;
+font-family: "Gill Sans", sans-serif;
+text-align: center}
+h1 {font-family: "Herculanum";}
+/* # is for id */
+/*two commands don't need specification ie margin:  100px auto instead of margin-top:  100x auto*/
+#container {
+	margin: 100px auto;
+	min-width: 800px;
+	max-width: 1600px;
+	
+}
+/*dot is for class*/
+img.link {
+	max-width: 100%: ;
+}
+	
+main {
+	display:  grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1px;
+}
